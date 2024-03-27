@@ -24,7 +24,7 @@ namespace Util
     {
     private:
         cppjieba::Jieba jieba;
-        static JiebaUtil *instance;
+        static unique_ptr<JiebaUtil> instance;
         static mutex mutex_instance; // 互斥锁
 
         // 私有构造函数，防止外部创建实例
@@ -43,11 +43,11 @@ namespace Util
                 lock_guard<mutex> lock(mutex_instance); // 加锁
 
                 if (!instance)
-                {                               // 双重检查
-                    instance = new JiebaUtil(); // 创建实例
+                {
+                    instance.reset(new JiebaUtil());
                 }
             }
-            return instance;
+            return instance.get();
         }
 
         // 删除拷贝构造函数和拷贝赋值运算符，防止复制实例

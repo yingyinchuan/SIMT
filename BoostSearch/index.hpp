@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <mutex>
 #include <unordered_map>
 #include <boost/filesystem.hpp>
 #include <boost/algorithm/string.hpp>
@@ -33,29 +34,29 @@ namespace Indexing
     class Index
     {
     private:
-        vector<Document> documents;
-        vector<ForwardIndexElement> forward_index;
-        unordered_map<string, InvertedIndexElement> inverted_index;
-        static Index *instance;      // 实例指针
+        static unique_ptr<Index> instance;
         static mutex mutex_instance; // 互斥锁
 
         Index() {}
         ~Index() = default;
 
     public:
-        // 获取单例实例的静态方法
+        vector<Document> documents;
+        vector<ForwardIndexElement> forward_index;
+        unordered_map<string, InvertedIndexElement> inverted_index;
+
         static Index *getInstance()
         {
             if (!instance)
             {
-                std::lock_guard<std::mutex> lock(mutex_instance); // 加锁
+                std::lock_guard<std::mutex> lock(mutex_instance);
 
                 if (!instance)
-                {                           // 双重检查
-                    instance = new Index(); // 创建实例
+                {                                // 双重检查
+                    instance.reset(new Index()); // 创建实例
                 }
             }
-            return instance;
+            return instance.get();
         }
         // 删除拷贝构造函数和拷贝赋值运算符，防止复制实例
         Index(const Index &) = delete;
@@ -64,9 +65,9 @@ namespace Indexing
         void addDocument(const Document &doc)
         {
             int doc_id = documents.size();
-            documents.push_back(doc);
+            documents.push_back(move(doc));
             ForwardIndexElement forward_element = {doc.title, doc.url};
-            forward_index.push_back(forward_element);
+            forward_index.push_back(move(forward_element));
 
             // 分词并统计词频
             vector<string> title_words = tokenize(doc.title);
