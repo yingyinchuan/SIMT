@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <vector>
 #include <boost/filesystem.hpp>
 
 using namespace std;
@@ -50,6 +49,7 @@ string read_file(const fs::path &file_path)
 string remove_html_tags(const string &html)
 {
     string result;
+    // 状态机
     bool in_tag = false;
     for (char c : html)
     {
