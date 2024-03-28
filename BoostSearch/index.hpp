@@ -70,9 +70,9 @@ namespace Indexing
         void addDocument(const Document &doc)
         {
             int doc_id = documents.size();
-            documents.push_back(move(doc));
+            documents.push_back(doc);
             ForwardIndexElement forward_element = {doc.title, doc.url};
-            forward_index.push_back(move(forward_element));
+            forward_index.push_back(forward_element);
 
             vector<string> title_words = tokenize(doc.title);
             vector<string> content_words = tokenize(doc.content);
@@ -100,8 +100,7 @@ namespace Indexing
         vector<string> tokenize(const string &text)
         {
             vector<string> words;
-            Util::JiebaUtil *jieba;
-            jieba = Util::JiebaUtil::getInstance();
+            Util::JiebaUtil *jieba = Util::JiebaUtil::getInstance();
             (*jieba).cutForSearch(text, words);
             return words;
         }

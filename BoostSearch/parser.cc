@@ -1,5 +1,7 @@
 #include <iostream>
 #include <string>
+#include <fstream>
+#include <vector>
 #include <boost/filesystem.hpp>
 
 using namespace std;
@@ -21,18 +23,15 @@ string read_file(const fs::path &file_path)
         return content;
     }
 
-    fs::ifstream file(file_path);
+    ifstream file(file_path.string());
     if (!file.is_open())
     {
         cerr << "Error: Unable to open input file: " << file_path << endl;
         return content;
     }
 
-    std::streampos fileSize;
-    fileSize = fs::file_size(file_path);
-
-    content.resize(fileSize);
-    file.read(&content[0], fileSize);
+    // Read file content into a string
+    content = string((istreambuf_iterator<char>(file)), istreambuf_iterator<char>());
 
     file.close();
 
@@ -52,6 +51,10 @@ string remove_html_tags(const string &html)
         else if (c == '>')
         {
             in_tag = false;
+            continue;
+        }
+        else if (c == '\n')
+        {
             continue;
         }
         if (!in_tag)
@@ -99,9 +102,9 @@ Document parse_document(const fs::path &file_path)
 
 static void ShowDoc(const Document &doc)
 {
-    std::cout << "title: " << doc.title << endl;
-    std::cout << "content: " << doc.content << endl;
-    std::cout << "url: " << doc.url << endl;
+    cout << "title: " << doc.title << endl;
+    cout << "content: " << doc.content << endl;
+    cout << "url: " << doc.url << endl;
 }
 
 void parse_html_files(const string &input_dir, const string &output_file)

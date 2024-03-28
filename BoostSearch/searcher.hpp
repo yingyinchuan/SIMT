@@ -25,7 +25,7 @@ namespace Searching
             index->buildIndex(input);
         }
 
-        void Search(const string &query, string *json_string)
+        void Search(const string &query, string &json_string)
         {
             vector<string> query_tokens;
 
@@ -74,7 +74,7 @@ namespace Searching
             }
             root["results"] = documents;
             Json::StreamWriterBuilder writer;
-            *json_string = Json::writeString(writer, root);
+            json_string = Json::writeString(writer, root);
         }
 
         string getSummary(const string &content)

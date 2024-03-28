@@ -22,7 +22,7 @@ int main()
 
         query = buffer;
 
-        search->Search(query, &json_string);
+        search->Search(query, json_string);
 
         std::cout << json_string << std::endl;
     }
