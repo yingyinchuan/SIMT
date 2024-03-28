@@ -1,12 +1,9 @@
 #include <iostream>
 #include <string>
 #include <boost/filesystem.hpp>
-#include <boost/iostreams/device/file.hpp>
-#include <boost/iostreams/stream.hpp>
 
 using namespace std;
 namespace fs = boost::filesystem;
-namespace io = boost::iostreams;
 
 struct Document
 {
@@ -109,7 +106,7 @@ static void ShowDoc(const Document &doc)
 
 void parse_html_files(const string &input_dir, const string &output_file)
 {
-    io::stream<io::file_sink> outfile(output_file, ios_base::out | ios_base::binary);
+    ofstream outfile(output_file, ios::binary);
     if (!outfile.is_open())
     {
         cerr << "Error: Unable to open output file." << endl;

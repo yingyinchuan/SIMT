@@ -1,19 +1,16 @@
-#include <iostream>
-#include <sstream>
+#pragma once
+
 #include <string>
 #include <vector>
 #include <mutex>
+#include <iostream>
 #include <unordered_map>
 #include <boost/filesystem.hpp>
-#include <boost/iostreams/device/file.hpp>
-#include <boost/iostreams/stream.hpp>
-#include <boost/algorithm/string.hpp>
 #include "cppjieba/Jieba.hpp"
 #include "util.hpp"
 
 using namespace std;
 namespace fs = boost::filesystem;
-namespace io = boost::iostreams;
 
 namespace Indexing
 {
@@ -111,7 +108,7 @@ namespace Indexing
 
         void buildIndex(const string &input)
         {
-            io::stream<io::file_source> infile(input, ios_base::in | ios_base::binary);
+            ifstream infile(input, ios::binary);
             if (!infile.is_open())
             {
                 cerr << "Error: Unable to open input file." << endl;
@@ -121,15 +118,18 @@ namespace Indexing
             const char sep = '\3';
             for (string line; getline(infile, line);)
             {
-                stringstream ss(line);
-                Document doc;
-                if (!(getline(ss, doc.title, sep) &&
-                      getline(ss, doc.content, sep) &&
-                      getline(ss, doc.url)))
+                vector<string> parts;
+                boost::split(parts, line, boost::is_any_of(string(1, sep)));
+                if (parts.size() < 3)
                 {
                     cerr << "Error: Insufficient fields in input line." << endl;
                     continue;
                 }
+
+                Document doc;
+                doc.title = parts[0];
+                doc.content = parts[1];
+                doc.url = parts[2];
 
                 addDocument(doc);
             }
