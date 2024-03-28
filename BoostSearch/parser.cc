@@ -135,6 +135,6 @@ void parse_html_files(const string &input_dir, const string &output_file)
 
 int main()
 {
-    parse_html_files("data/input/", "data/output/raw");
+    parse_html_files("data/input/", "data/raw");
     return 0;
 }

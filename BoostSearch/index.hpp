@@ -77,11 +77,11 @@ namespace Indexing
             vector<string> title_words = tokenize(doc.title);
             vector<string> content_words = tokenize(doc.content);
 
-            updateInvertedIndex(doc_id, title_words);
-            updateInvertedIndex(doc_id, content_words);
+            updateInvertedIndex(doc_id, title_words, 20);
+            updateInvertedIndex(doc_id, content_words, 5);
         }
 
-        void updateInvertedIndex(int doc_id, const vector<string> &words)
+        void updateInvertedIndex(int doc_id, const vector<string> &words, const int &weight)
         {
             unordered_map<string, int> word_freq;
             for (const string &word : words)
@@ -93,7 +93,7 @@ namespace Indexing
             for (const auto &pair : word_freq)
             {
                 inverted_index[pair.first].word = pair.first;
-                inverted_index[pair.first].doc_ids_weights[doc_id] = pair.second;
+                inverted_index[pair.first].doc_ids_weights[doc_id] = pair.second * weight;
             }
         }
 

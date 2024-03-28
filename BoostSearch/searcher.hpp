@@ -68,8 +68,9 @@ namespace Searching
                 const Indexing::Document &doc = index->documents[doc_id];
                 Json::Value document;
                 document["title"] = doc.title;
-                document["content"] = doc.content;
+                document["summary"] = getSummary(doc.content);
                 document["url"] = doc.url;
+                document["doc_id"] = doc_id;
                 documents.append(document);
             }
             root["results"] = documents;

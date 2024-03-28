@@ -6,7 +6,7 @@ int main()
 {
     Searching::Searcher *search = new Searching::Searcher();
 
-    const std::string input = "data/output/raw";
+    const std::string input = "data/raw";
     search->InitSearcher(input);
 
     std::string query;

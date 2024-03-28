@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BoostSearch</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+            background-color: #f8f9fa;
+        }
+
+        .result-card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Searching@ZDC</a>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="input-group mb-3">
+                    <input type="text" id="search-input" class="form-control" placeholder="请输入搜索关键字...">
+                    <div class="input-group-append">
+                        <button id="search-button" class="btn btn-primary" type="button">搜索</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="search-results">
+            <!-- 搜索结果将动态显示在此处 -->
+        </div>
+    </div>
+
+    <!-- jQuery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        document.getElementById('search-button').addEventListener('click', function () {
+            var searchInput = document.getElementById('search-input').value;
+            fetch('/s?word=' + encodeURIComponent(searchInput))
+                .then(response => response.json())
+                .then(data => {
+                    displayResults(data);
+                });
+        });
+
+        function displayResults(data) {
+            var resultsContainer = document.getElementById('search-results');
+            resultsContainer.innerHTML = '';
+
+            data.results.forEach(result => {
+                var resultItem = `
+                    <div class="col-md-6">
+                        <div class="card result-card">
+                            <div class="card-body">
+                                <h5 class="card-title">${result.title}</h5>
+                                <p class="card-text">${result.summary}</p>
+                                <a href="${result.url}" class="card-link" target="_blank">查看详情</a>
+                            </div>
+                        </div>
+                    </div>`;
+                resultsContainer.insertAdjacentHTML('beforeend', resultItem);
+            });
+        }
+    </script>
+</body>
+
+</html>
