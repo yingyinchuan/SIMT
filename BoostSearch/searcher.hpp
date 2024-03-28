@@ -2,7 +2,6 @@
 
 #include "index.hpp"
 #include "util.hpp"
-// #include "log.hpp"
 #include <algorithm>
 #include <unordered_map>
 #include <jsoncpp/json/json.h>
@@ -40,7 +39,7 @@ namespace Searching
                 string lowercase_token = boost::to_lower_copy(token);
                 if (index->inverted_index.find(lowercase_token) != index->inverted_index.end())
                 {
-                    const unordered_map<int, int> &doc_ids_weights = index->inverted_index[lowercase_token].doc_ids_weights;
+                    const unordered_map<int, int> &doc_ids_weights{index->inverted_index[lowercase_token].doc_ids_weights};
                     for (const auto &pair : doc_ids_weights)
                     {
                         int doc_id = pair.first;
@@ -50,7 +49,6 @@ namespace Searching
                 }
             }
 
-            // 合并排序：汇总查找结果，按照相关性(weight)降序排序
             vector<pair<int, int>> sorted_results;
             for (const auto &pair : results)
             {
@@ -59,10 +57,9 @@ namespace Searching
             sort(sorted_results.begin(), sorted_results.end(),
                  [](const pair<int, int> &a, const pair<int, int> &b)
                  {
-                     return a.second > b.second; // 按照权重降序排序
+                     return a.second > b.second;
                  });
 
-            // 构建Json串
             Json::Value root;
             Json::Value documents(Json::arrayValue);
             for (const auto &result : sorted_results)
@@ -78,6 +75,19 @@ namespace Searching
             root["results"] = documents;
             Json::StreamWriterBuilder writer;
             *json_string = Json::writeString(writer, root);
+        }
+
+        string getSummary(const string &content)
+        {
+            const int max_summary_length = 100;
+            if (content.length() <= max_summary_length)
+            {
+                return content;
+            }
+            else
+            {
+                return content.substr(0, max_summary_length) + "...";
+            }
         }
     };
 }

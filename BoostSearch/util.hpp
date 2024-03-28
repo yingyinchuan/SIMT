@@ -24,7 +24,7 @@ namespace Util
     {
     private:
         cppjieba::Jieba jieba;
-        static unique_ptr<JiebaUtil> instance;
+        static JiebaUtil *instance;
         static mutex mutex_instance; // 互斥锁
 
         // 私有构造函数，防止外部创建实例
@@ -32,9 +32,13 @@ namespace Util
             : jieba(DICT_PATH, HMM_PATH, USER_DICT_PATH, IDF_PATH, STOP_WORD_PATH)
         {
         }
-        ~JiebaUtil() = default;
 
     public:
+        ~JiebaUtil()
+        {
+            delete instance;
+        }
+
         // 获取单例实例的静态方法
         static JiebaUtil *getInstance()
         {
@@ -44,10 +48,10 @@ namespace Util
 
                 if (!instance)
                 {
-                    instance.reset(new JiebaUtil());
+                    instance = new JiebaUtil();
                 }
             }
-            return instance.get();
+            return instance;
         }
 
         // 删除拷贝构造函数和拷贝赋值运算符，防止复制实例
@@ -59,4 +63,7 @@ namespace Util
             jieba.CutForSearch(text, words);
         }
     };
+
+    JiebaUtil *JiebaUtil::instance = nullptr;
+    mutex JiebaUtil::mutex_instance;
 }

@@ -1,4 +1,4 @@
-Chapter 8. Boost.Container\3
+Chapter 8. Boost.Container
 
 
 
@@ -399,8 +399,8 @@ Tested compilers
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/container.html
-Macro BOOST_MPI_SUBVERSION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/container.html
+Macro BOOST_MPI_SUBVERSION
 
 
 
@@ -450,8 +450,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_SUBVERSION.html
-Macro BOOST_YAP_USER_BINARY_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_SUBVERSION.html
+Macro BOOST_YAP_USER_BINARY_OPERATOR
 
 
 
@@ -537,8 +537,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_2.html
-Macro BOOST_UNITS_DEFINE_CONVERSION_OFFSET\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_2.html
+Macro BOOST_UNITS_DEFINE_CONVERSION_OFFSET
 
 
 
@@ -594,8 +594,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_2_4.html
-Chapter 27. Boost.PolyCollection\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_2_4.html
+Chapter 27. Boost.PolyCollection
 
 
 
@@ -805,8 +805,8 @@ Note
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/poly_collection.html
-Concept SignedInteger\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/poly_collection.html
+Concept SignedInteger
 
 
 
@@ -1083,8 +1083,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/SignedInteger.html
-Macro BOOST_MOVE_RET\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/SignedInteger.html
+Macro BOOST_MOVE_RET
 
 
 
@@ -1146,8 +1146,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MOVE_RET.html
-Macro BOOST_PROTO_MAX_ARITY\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MOVE_RET.html
+Macro BOOST_PROTO_MAX_ARITY
 
 
 
@@ -1205,8 +1205,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_MAX_ARITY.html
-What's Included in This Document\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_MAX_ARITY.html
+What's Included in This Document
 
 
 
@@ -1261,8 +1261,8 @@ PDF
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/about.html
-Macro BOOST_PROTO_EXTENDS_USING_ASSIGN\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/about.html
+Macro BOOST_PROTO_EXTENDS_USING_ASSIGN
 
 
 
@@ -1329,8 +1329,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_10_8.html
-Macro BOOST_MPI_CALLING_CONVENTION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_10_8.html
+Macro BOOST_MPI_CALLING_CONVENTION
 
 
 
@@ -1384,8 +1384,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_CAL_1_3_25_7_7_7.html
-Chapter 7. Boost.Circular Buffer\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_CAL_1_3_25_7_7_7.html
+Chapter 7. Boost.Circular Buffer
 
 
 
@@ -1542,8 +1542,8 @@ Introduction
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/circular_buffer.html
-Chapter 26. Boost.PFR 2.2\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/circular_buffer.html
+Chapter 26. Boost.PFR 2.2
 
 
 
@@ -1926,8 +1926,8 @@ Caution
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_pfr.html
-Macro BOOST_PROTO_REPEAT_FROM_TO\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_pfr.html
+Macro BOOST_PROTO_REPEAT_FROM_TO
 
 
 
@@ -2062,8 +2062,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_REPEAT_FROM_TO.html
-Redirect to generated documentation\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_REPEAT_FROM_TO.html
+Redirect to generated documentation
 
   
   
@@ -2079,8 +2079,8 @@ Redirect to generated documentation\3
     http://www.boost.org/doc/libs/master/doc/html/atomic.html
   
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/atomic.html
-Chapter 44. Boost.Xpressive\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/atomic.html
+Chapter 44. Boost.Xpressive
 
 
 
@@ -2278,8 +2278,8 @@ Preface
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/xpressive.html
-Macro BOOST_PFR_CORE_NAME_PARSING\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/xpressive.html
+Macro BOOST_PFR_CORE_NAME_PARSING
 
 
 
@@ -2327,8 +2327,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_CORE_NAM_idm2554.html
-Chapter 25. Boost.MultiArray Reference Manual\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_CORE_NAM_idm2554.html
+Chapter 25. Boost.MultiArray Reference Manual
 
 
 
@@ -2469,8 +2469,8 @@ namespace boost {
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/multi_array.html
-Chapter 47. The BoostBook Documentation Format\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/multi_array.html
+Chapter 47. The BoostBook Documentation Format
 
 
 
@@ -2595,8 +2595,8 @@ The BoostBook format allows testcases to be generated
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boostbook.html
-Macro BOOST_UNITS_DEFINE_CONVERSION_FACTOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boostbook.html
+Macro BOOST_UNITS_DEFINE_CONVERSION_FACTOR
 
 
 
@@ -2649,8 +2649,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_7_3.html
-Boost.Circular_buffer C++ Reference\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_7_3.html
+Boost.Circular_buffer C++ Reference
 
 
 
@@ -2773,8 +2773,8 @@ Copyright © 2003-2013 Jan Gaspar
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_circular_buffer_c___reference.html
-Macro BOOST_YAP_USER_UDT_ANY_BINARY_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_circular_buffer_c___reference.html
+Macro BOOST_YAP_USER_UDT_ANY_BINARY_OPERATOR
 
 
 
@@ -2864,8 +2864,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP__1_3_46_8_2_7_11.html
-Macro BOOST_TYPE_INDEX_REGISTER_CLASS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP__1_3_46_8_2_7_11.html
+Macro BOOST_TYPE_INDEX_REGISTER_CLASS
 
 
 
@@ -2940,8 +2940,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_4.html
-Macro BOOST_RV_REF\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_4.html
+Macro BOOST_RV_REF
 
 
 
@@ -2993,8 +2993,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF.html
-Macro BOOST_PFR_USE_LOOPHOLE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF.html
+Macro BOOST_PFR_USE_LOOPHOLE
 
 
 
@@ -3042,8 +3042,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_USE_LOOPHOLE.html
-Macro BOOST_TYPE_ERASURE_MAX_ARITY\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_USE_LOOPHOLE.html
+Macro BOOST_TYPE_ERASURE_MAX_ARITY
 
 
 
@@ -3095,8 +3095,8 @@ Copyright © 2011-2013 Steven Watanabe
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE__1_3_40_13_11_2.html
-Macro BOOST_PROTO_A_ref_a\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE__1_3_40_13_11_2.html
+Macro BOOST_PROTO_A_ref_a
 
 
 
@@ -3166,8 +3166,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_ref_a.html
-Macro BOOST_ACCUMULATORS_GCC_VERSION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_ref_a.html
+Macro BOOST_ACCUMULATORS_GCC_VERSION
 
 
 
@@ -3215,8 +3215,8 @@ Copyright © 2005, 2006 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_5.html
-Macro BOOST_CB_ENABLE_DEBUG\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_5.html
+Macro BOOST_CB_ENABLE_DEBUG
 
 
 
@@ -3268,8 +3268,8 @@ Copyright © 2003-2013 Jan Gaspar
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_CB_ENABLE_DEBUG.html
-Macro BOOST_COPYABLE_AND_MOVABLE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_CB_ENABLE_DEBUG.html
+Macro BOOST_COPYABLE_AND_MOVABLE
 
 
 
@@ -3321,8 +3321,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_COPYABLE_AND_MOVABLE.html
-Macro BOOST_PROGRAM_OPTIONS_IMPLICIT_VALUE_NEXT_TOKEN\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_COPYABLE_AND_MOVABLE.html
+Macro BOOST_PROGRAM_OPTIONS_IMPLICIT_VALUE_NEXT_TOKEN
 
 
 
@@ -3370,8 +3370,8 @@ Copyright © 2002-2004 Vladimir PrusDistributed under the Boost Software License
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROGRA_1_3_30_9_12_2.html
-Macro BOOST_PROTO_typename_A\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROGRA_1_3_30_9_12_2.html
+Macro BOOST_PROTO_typename_A
 
 
 
@@ -3441,8 +3441,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_typename_A.html
-Chapter 5. Boost.Array\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_typename_A.html
+Chapter 5. Boost.Array
 
 
 
@@ -3565,8 +3565,8 @@ operator[] and at() are provided.
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/array.html
-Macro BOOST_ACCUMULATORS_MAX_ARGS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/array.html
+Macro BOOST_ACCUMULATORS_MAX_ARGS
 
 
 
@@ -3618,8 +3618,8 @@ Copyright © 2005, 2006 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_3.html
-Macro BOOST_PROTO_REPEAT_EX\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_3.html
+Macro BOOST_PROTO_REPEAT_EX
 
 
 
@@ -3690,8 +3690,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_REPEAT_EX.html
-Macro BOOST_DLL_USE_STD_FS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_REPEAT_EX.html
+Macro BOOST_DLL_USE_STD_FS
 
 
 
@@ -3739,8 +3739,8 @@ Copyright © 2014 Renato Tegon Forti, Antony PolukhinCopyright © 2015 Antony Po
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_USE_STD_FS.html
-Chapter 4. Boost.Any 1.2\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_USE_STD_FS.html
+Chapter 4. Boost.Any 1.2
 
 
 
@@ -3866,8 +3866,8 @@ Introduction
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/any.html
-Chapter 32. Boost.Random\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/any.html
+Chapter 32. Boost.Random
 
 
 
@@ -3971,8 +3971,8 @@ int x = six(rng);                   // simulate rolling a die
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_random.html
-Macro BOOST_YAP_USER_CALL_OPERATOR_N\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_random.html
+Macro BOOST_YAP_USER_CALL_OPERATOR_N
 
 
 
@@ -4054,8 +4054,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_6.html
-Chapter 2. Boost String Algorithms Library\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_6.html
+Chapter 2. Boost String Algorithms Library
 
 
 
@@ -4229,8 +4229,8 @@ Introduction
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/string_algo.html
-Macro BOOST_TYPE_ERASURE_MAX_TUPLE_SIZE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/string_algo.html
+Macro BOOST_TYPE_ERASURE_MAX_TUPLE_SIZE
 
 
 
@@ -4282,8 +4282,8 @@ Copyright © 2011-2013 Steven Watanabe
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE__1_3_40_13_11_3.html
-Concept Domain\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE__1_3_40_13_11_3.html
+Concept Domain
 
 
 
@@ -4499,8 +4499,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/Domain.html
-Macro BOOST_UNITS_CHECK_HOMOGENEOUS_UNITS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/Domain.html
+Macro BOOST_UNITS_CHECK_HOMOGENEOUS_UNITS
 
 
 
@@ -4553,8 +4553,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_6_3.html
-Macro BOOST_PROTO_LOCAL_ITERATE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_6_3.html
+Macro BOOST_PROTO_LOCAL_ITERATE
 
 
 
@@ -4727,8 +4727,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_LOCAL_ITERATE.html
-Macro BOOST_TYPE_ERASURE_MAX_FUNCTIONS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_LOCAL_ITERATE.html
+Macro BOOST_TYPE_ERASURE_MAX_FUNCTIONS
 
 
 
@@ -4780,8 +4780,8 @@ Copyright © 2011-2013 Steven Watanabe
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE__1_3_40_13_11_1.html
-Macro BOOST_DLL_SECTION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE__1_3_40_13_11_1.html
+Macro BOOST_DLL_SECTION
 
 
 
@@ -4859,8 +4859,8 @@ Copyright © 2014 Renato Tegon Forti, Antony PolukhinCopyright © 2015 Antony Po
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_SECTION.html
-Chapter 29. Boost.Program_options\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_SECTION.html
+Chapter 29. Boost.Program_options
 
 
 
@@ -4990,8 +4990,8 @@ Options can be read from anywhere. Sooner or later the command
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/program_options.html
-Macro BOOST_TYPE_INDEX_CTTI_USER_DEFINED_PARSING\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/program_options.html
+Macro BOOST_TYPE_INDEX_CTTI_USER_DEFINED_PARSING
 
 
 
@@ -5073,8 +5073,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_6.html
-Reference Section of PFR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_6.html
+Reference Section of PFR
 
 
 
@@ -5442,8 +5442,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/reference_section_of_pfr.html
-Macro BOOST_STL_INTERFACES_NAMESPACE_V3\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/reference_section_of_pfr.html
+Macro BOOST_STL_INTERFACES_NAMESPACE_V3
 
 
 
@@ -5491,8 +5491,8 @@ Copyright © 2019 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_5.html
-Macro BOOST_PROTO_MAX_FUNCTION_CALL_ARITY\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_5.html
+Macro BOOST_PROTO_MAX_FUNCTION_CALL_ARITY
 
 
 
@@ -5555,8 +5555,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_35_5.html
-Macro BOOST_UNITS_NO_COMPILER_CHECK\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_35_5.html
+Macro BOOST_UNITS_NO_COMPILER_CHECK
 
 
 
@@ -5609,8 +5609,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_6_2.html
-Chapter 31. Boost.Proto\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_6_2.html
+Chapter 31. Boost.Proto
 
 
 
@@ -5882,8 +5882,8 @@ using proto::_;
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/proto.html
-Boost.Asio\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/proto.html
+Boost.Asio
 
 
 Boost.Asio
@@ -5979,8 +5979,8 @@ Copyright © 2003-2023 Christopher M. Kohlhoff
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_asio.html
-Macro BOOST_PFR_USE_CPP17\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_asio.html
+Macro BOOST_PFR_USE_CPP17
 
 
 
@@ -6028,8 +6028,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_USE_CPP17.html
-Concept ObjectTransform\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_USE_CPP17.html
+Concept ObjectTransform
 
 
 
@@ -6150,8 +6150,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/ObjectTransform.html
-Macro BOOST_INTRUSIVE_OPTION_TYPE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/ObjectTransform.html
+Macro BOOST_INTRUSIVE_OPTION_TYPE
 
 
 
@@ -6222,8 +6222,8 @@ Copyright © 2005 Olaf KrzikallaCopyright © 2006-2015 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_INTRUSIVE_O_idm34861.html
-Chapter 34. Boost.Signals2\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_INTRUSIVE_O_idm34861.html
+Chapter 34. Boost.Signals2
 
 
 
@@ -6376,8 +6376,8 @@ This documentation describes a thread-safe variant of the
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/signals2.html
-Macro BOOST_VARIANT_DO_NOT_SPECIALIZE_STD_HASH\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/signals2.html
+Macro BOOST_VARIANT_DO_NOT_SPECIALIZE_STD_HASH
 
 
 
@@ -6426,8 +6426,8 @@ Copyright © 2002, 2003 Eric Friedman, Itay MamanCopyright © 2014-2023 Antony P
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_1_3_44_5_3_6.html
-Chapter 42. Boost.Units 1.1.0\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_1_3_44_5_3_6.html
+Chapter 42. Boost.Units 1.1.0
 
 
 
@@ -6646,8 +6646,8 @@ Introduction
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_units.html
-Macro BOOST_PROGRAM_OPTIONS_DECL\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_units.html
+Macro BOOST_PROGRAM_OPTIONS_DECL
 
 
 
@@ -6695,8 +6695,8 @@ Copyright © 2002-2004 Vladimir PrusDistributed under the Boost Software License
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROGRAM_OPTIONS_DECL.html
-Chapter 19. Boost.Lexical_Cast 1.0\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROGRAM_OPTIONS_DECL.html
+Chapter 19. Boost.Lexical_Cast 1.0
 
 
 
@@ -6860,8 +6860,8 @@ Motivation
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_lexical_cast.html
-Macro BOOST_TYPE_ERASURE_FREE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_lexical_cast.html
+Macro BOOST_TYPE_ERASURE_FREE
 
 
 
@@ -6955,8 +6955,8 @@ Copyright © 2011-2013 Steven Watanabe
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_ERASURE_FREE.html
-Redirect to generated documentation\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_ERASURE_FREE.html
+Redirect to generated documentation
 
   
   
@@ -6972,8 +6972,8 @@ Redirect to generated documentation\3
     http://www.boost.org/doc/libs/master/doc/html/unordered.html
   
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/unordered.html
-Concept PrimitiveTransform\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/unordered.html
+Concept PrimitiveTransform
 
 
 
@@ -7113,8 +7113,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/PrimitiveTransform.html
-Macro BOOST_XPR_ENSURE_\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/PrimitiveTransform.html
+Macro BOOST_XPR_ENSURE_
 
 
 
@@ -7162,8 +7162,8 @@ Copyright © 2007 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_XPR_ENSURE_.html
-Macro MPICH_IGNORE_CXX_SEEK\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_XPR_ENSURE_.html
+Macro MPICH_IGNORE_CXX_SEEK
 
 
 
@@ -7213,8 +7213,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/MPICH_IGNORE_CXX_SEEK.html
-Macro BOOST_PROTO_BASIC_EXTENDS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/MPICH_IGNORE_CXX_SEEK.html
+Macro BOOST_PROTO_BASIC_EXTENDS
 
 
 
@@ -7320,8 +7320,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_BASIC_EXTENDS.html
-Macro BOOST_PFR_USE_STD_MAKE_INTEGRAL_SEQUENCE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_BASIC_EXTENDS.html
+Macro BOOST_PFR_USE_STD_MAKE_INTEGRAL_SEQUENCE
 
 
 
@@ -7369,8 +7369,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_USE_STD__idm2550.html
-Macro BOOST_PROTO_REPEAT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_USE_STD__idm2550.html
+Macro BOOST_PROTO_REPEAT
 
 
 
@@ -7441,8 +7441,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_REPEAT.html
-Macro BOOST_RV_REF_BEG\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_REPEAT.html
+Macro BOOST_RV_REF_BEG
 
 
 
@@ -7494,8 +7494,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF_BEG.html
-Macro BOOST_YAP_USER_UDT_UDT_BINARY_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF_BEG.html
+Macro BOOST_YAP_USER_UDT_UDT_BINARY_OPERATOR
 
 
 
@@ -7592,8 +7592,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP__1_3_46_8_2_7_10.html
-Macro BOOST_PROTO_EXTENDS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP__1_3_46_8_2_7_10.html
+Macro BOOST_PROTO_EXTENDS
 
 
 
@@ -7681,8 +7681,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_EXTENDS.html
-Macro BOOST_PROTO_ref_a\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_EXTENDS.html
+Macro BOOST_PROTO_ref_a
 
 
 
@@ -7752,8 +7752,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_ref_a.html
-Chapter 43. Boost.Variant\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_ref_a.html
+Chapter 43. Boost.Variant
 
 
 
@@ -7970,8 +7970,8 @@ int main()
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/variant.html
-Chapter 41. Boost.Typeof\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/variant.html
+Chapter 41. Boost.Typeof
 
 
 
@@ -8156,8 +8156,8 @@ auto f = _1 &gt; 15 &amp;&amp; _2 &lt; 20;
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/typeof.html
-Array Components\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/typeof.html
+Array Components
 
 
 
@@ -8997,8 +8997,8 @@ Copyright © 2002 The Trustees of Indiana University
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/array_types.html
-Concept CallableTransform\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/array_types.html
+Concept CallableTransform
 
 
 
@@ -9117,8 +9117,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/CallableTransform.html
-Boost.TypeIndex Header Reference\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/CallableTransform.html
+Boost.TypeIndex Header Reference
 
 
 
@@ -9316,8 +9316,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_typeindex_header_reference.html
-Macro BOOST_RV_REF_END_IF_CXX11\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_typeindex_header_reference.html
+Macro BOOST_RV_REF_END_IF_CXX11
 
 
 
@@ -9369,8 +9369,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF_END_IF_CXX11.html
-Chapter 23. Boost.Move\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF_END_IF_CXX11.html
+Chapter 23. Boost.Move
 
 
 
@@ -9571,8 +9571,8 @@ Warning
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/move.html
-Chapter 9. The Conversion Library 1.7\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/move.html
+Chapter 9. The Conversion Library 1.7
 
 
 
@@ -9686,8 +9686,8 @@ Description
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/conversion.html
-Concept Assignable\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/conversion.html
+Concept Assignable
 
 
 
@@ -9813,8 +9813,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/Assignable.html
-Macro BOOST_TYPE_INDEX_IMPLEMENT_RUNTIME_CAST\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/Assignable.html
+Macro BOOST_TYPE_INDEX_IMPLEMENT_RUNTIME_CAST
 
 
 
@@ -9893,8 +9893,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_8_4.html
-Macro BOOST_MPI_DECL\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_8_4.html
+Macro BOOST_MPI_DECL
 
 
 
@@ -9944,8 +9944,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_DECL.html
-Macro BOOST_YAP_USER_CALL_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_DECL.html
+Macro BOOST_YAP_USER_CALL_OPERATOR
 
 
 
@@ -10021,8 +10021,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_5.html
-Macro BOOST_COPY_ASSIGN_REF\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_5.html
+Macro BOOST_COPY_ASSIGN_REF
 
 
 
@@ -10074,8 +10074,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_COPY_ASSIGN_REF.html
-Macro BOOST_TYPE_INDEX_REGISTER_RUNTIME_CLASS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_COPY_ASSIGN_REF.html
+Macro BOOST_TYPE_INDEX_REGISTER_RUNTIME_CLASS
 
 
 
@@ -10156,8 +10156,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_8_3.html
-Macro BOOST_INTRUSIVE_OPTION_CONSTANT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_8_3.html
+Macro BOOST_INTRUSIVE_OPTION_CONSTANT
 
 
 
@@ -10228,8 +10228,8 @@ Copyright © 2005 Olaf KrzikallaCopyright © 2006-2015 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_INTRUSIVE_O_idm34875.html
-Reference Section of Boost.Any\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_INTRUSIVE_O_idm34875.html
+Reference Section of Boost.Any
 
 
 
@@ -10352,8 +10352,8 @@ Copyright © 2001 Kevlin HenneyCopyright © 2013-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/reference_section_of_boost_any.html
-Chapter 12. Boost.DLL\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/reference_section_of_boost_any.html
+Chapter 12. Boost.DLL
 
 
 
@@ -10514,8 +10514,8 @@ Motivation
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_dll.html
-Chapter 37. Boost.STLInterfaces\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_dll.html
+Chapter 37. Boost.STLInterfaces
 
 
 
@@ -10874,8 +10874,8 @@ Note
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/stl_interfaces.html
-Chapter 10. Boost.CRC 1.5\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/stl_interfaces.html
+Chapter 10. Boost.CRC 1.5
 
 
 
@@ -10952,8 +10952,8 @@ What is Boost.CRC?
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/crc.html
-Concept PolymorphicFunctionObject\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/crc.html
+Concept PolymorphicFunctionObject
 
 
 
@@ -11054,8 +11054,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/PolymorphicFunctionObject.html
-Concept DefaultConstructible\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/PolymorphicFunctionObject.html
+Concept DefaultConstructible
 
 
 
@@ -11163,8 +11163,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/DefaultConstructible.html
-Chapter 21. Boost.Tribool\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/DefaultConstructible.html
+Chapter 21. Boost.Tribool
 
 
 
@@ -11243,8 +11243,8 @@ The 3-state boolean library contains a single class,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/tribool.html
-Part I. The Boost C++ Libraries (BoostBook Subset)\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/tribool.html
+Part I. The Boost C++ Libraries (BoostBook Subset)
 
 
 
@@ -11879,8 +11879,8 @@ Concept reference
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/libraries.html
-Chapter 38. Thread 4.8.0\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/libraries.html
+Chapter 38. Thread 4.8.0
 
 
 
@@ -12066,8 +12066,8 @@ Overview
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/thread.html
-Macro BOOST_STL_INTERFACES_STATIC_ASSERT_CONCEPT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/thread.html
+Macro BOOST_STL_INTERFACES_STATIC_ASSERT_CONCEPT
 
 
 
@@ -12130,8 +12130,8 @@ Copyright © 2019 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_4_2.html
-Chapter 40. Boost.TypeIndex 4.1\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_4_2.html
+Chapter 40. Boost.TypeIndex 4.1
 
 
 
@@ -12297,8 +12297,8 @@ Note
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_typeindex.html
-Macro BOOST_VARIANT_ENUM_SHIFTED_PARAMS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_typeindex.html
+Macro BOOST_VARIANT_ENUM_SHIFTED_PARAMS
 
 
 
@@ -12371,8 +12371,8 @@ Copyright © 2002, 2003 Eric Friedman, Itay MamanCopyright © 2014-2023 Antony P
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_1_3_44_5_3_4.html
-Chapter 18. Boost.Lambda\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_1_3_44_5_3_4.html
+Chapter 18. Boost.Lambda
 
 
 
@@ -12568,8 +12568,8 @@ The Lambda Library : unnamed functions in C++.
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/lambda.html
-Chapter 48. Quickbook 1.7\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/lambda.html
+Chapter 48. Quickbook 1.7
 
 
 
@@ -12805,8 +12805,8 @@ Tip
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/quickbook.html
-Macro BOOST_PROTO_EXTENDS_USING_ASSIGN_NON_DEPENDENT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/quickbook.html
+Macro BOOST_PROTO_EXTENDS_USING_ASSIGN_NON_DEPENDENT
 
 
 
@@ -12886,8 +12886,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_10_9.html
-Macro BOOST_PFR_NOT_SUPPORTED\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_10_9.html
+Macro BOOST_PFR_NOT_SUPPORTED
 
 
 
@@ -12935,8 +12935,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_NOT_SUPPORTED.html
-Macro BOOST_PFR_CORE_NAME_ENABLED\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_NOT_SUPPORTED.html
+Macro BOOST_PFR_CORE_NAME_ENABLED
 
 
 
@@ -12984,8 +12984,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_CORE_NAM_idm2553.html
-Macro BOOST_VARIANT_NO_TYPE_SEQUENCE_SUPPORT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_CORE_NAM_idm2553.html
+Macro BOOST_VARIANT_NO_TYPE_SEQUENCE_SUPPORT
 
 
 
@@ -13042,8 +13042,8 @@ Copyright © 2002, 2003 Eric Friedman, Itay MamanCopyright © 2014-2023 Antony P
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_1_3_44_5_3_5.html
-Macro BOOST_RV_REF_END\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_1_3_44_5_3_5.html
+Macro BOOST_RV_REF_END
 
 
 
@@ -13095,8 +13095,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF_END.html
-Macro BOOST_STL_INTERFACES_USE_CONCEPTS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF_END.html
+Macro BOOST_STL_INTERFACES_USE_CONCEPTS
 
 
 
@@ -13144,8 +13144,8 @@ Copyright © 2019 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_1.html
-Concept ForwardIterator\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_1.html
+Concept ForwardIterator
 
 
 
@@ -13352,8 +13352,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/ForwardIterator.html
-Macro BOOST_CRC_OPTIMAL_NAME\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/ForwardIterator.html
+Macro BOOST_CRC_OPTIMAL_NAME
 
 
 
@@ -13401,8 +13401,8 @@ Copyright © 2001, 2003, 2012 Daryle Walker
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_CRC_OPTIMAL_NAME.html
-Macro BOOST_MOVE_BASE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_CRC_OPTIMAL_NAME.html
+Macro BOOST_MOVE_BASE
 
 
 
@@ -13456,8 +13456,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MOVE_BASE.html
-Macro BOOST_YAP_USER_SUBSCRIPT_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MOVE_BASE.html
+Macro BOOST_YAP_USER_SUBSCRIPT_OPERATOR
 
 
 
@@ -13533,8 +13533,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_4.html
-Macro BOOST_VARIANT_ENUM_PARAMS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_4.html
+Macro BOOST_VARIANT_ENUM_PARAMS
 
 
 
@@ -13609,8 +13609,8 @@ Copyright © 2002, 2003 Eric Friedman, Itay MamanCopyright © 2014-2023 Antony P
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_ENUM_PARAMS.html
-Macro BOOST_TYPE_INDEX_NO_BASE_CLASS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_ENUM_PARAMS.html
+Macro BOOST_TYPE_INDEX_NO_BASE_CLASS
 
 
 
@@ -13663,8 +13663,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_8_5.html
-Macro BOOST_DLL_FORCE_ALIAS_INSTANTIATION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_8_5.html
+Macro BOOST_DLL_FORCE_ALIAS_INSTANTIATION
 
 
 
@@ -13716,8 +13716,8 @@ Copyright © 2014 Renato Tegon Forti, Antony PolukhinCopyright © 2015 Antony Po
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_FORCE_AL_idm4164.html
-Macro BOOST_PROTO_ASSERT_MATCHES_NOT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_FORCE_AL_idm4164.html
+Macro BOOST_PROTO_ASSERT_MATCHES_NOT
 
 
 
@@ -13792,8 +13792,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_1_3_32_5_5_4.html
-Macro BOOST_UNITS_STATIC_CONSTANT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_1_3_32_5_5_4.html
+Macro BOOST_UNITS_STATIC_CONSTANT
 
 
 
@@ -13846,8 +13846,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNI_1_3_43_10_2_40_1.html
-Macro BOOST_PROTO_AUTO\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNI_1_3_43_10_2_40_1.html
+Macro BOOST_PROTO_AUTO
 
 
 
@@ -13910,8 +13910,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_AUTO.html
-Concept LessThanComparable\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_AUTO.html
+Concept LessThanComparable
 
 
 
@@ -14041,8 +14041,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/LessThanComparable.html
-Macro BOOST_MPI_BCAST_BOTTOM_WORKS_FINE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/LessThanComparable.html
+Macro BOOST_MPI_BCAST_BOTTOM_WORKS_FINE
 
 
 
@@ -14096,8 +14096,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_BCA_1_3_25_7_7_8.html
-Macro OMPI_SKIP_MPICXX\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_BCA_1_3_25_7_7_8.html
+Macro OMPI_SKIP_MPICXX
 
 
 
@@ -14147,8 +14147,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/OMPI_SKIP_MPICXX.html
-Redirect to generated documentation\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/OMPI_SKIP_MPICXX.html
+Redirect to generated documentation
 
   
   
@@ -14164,8 +14164,8 @@ Redirect to generated documentation\3
     ../../libs/core/doc/html/core/ref.html
   
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/ref.html
-Macro BOOST_PROTO_ASSERT_MATCHES\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/ref.html
+Macro BOOST_PROTO_ASSERT_MATCHES
 
 
 
@@ -14240,8 +14240,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_ASSERT_MATCHES.html
-Chapter 24. Boost.MPI\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_ASSERT_MATCHES.html
+Chapter 24. Boost.MPI
 
 
 
@@ -14424,8 +14424,8 @@ Introduction
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/mpi.html
-Concept OutputIterator\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/mpi.html
+Concept OutputIterator
 
 
 
@@ -14646,8 +14646,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/OutputIterator.html
-Macro BOOST_TRIBOOL_THIRD_STATE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/OutputIterator.html
+Macro BOOST_TRIBOOL_THIRD_STATE
 
 
 
@@ -14700,8 +14700,8 @@ Copyright © 2002-2004 Douglas GregorUse, modification and distribution is subje
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TRIBOOL_THIRD_STATE.html
-Macro BOOST_UNITS_REQUIRE_LAYOUT_COMPATIBILITY\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TRIBOOL_THIRD_STATE.html
+Macro BOOST_UNITS_REQUIRE_LAYOUT_COMPATIBILITY
 
 
 
@@ -14754,8 +14754,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_6_1.html
-Macro BOOST_PFR_ENABLED\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_6_1.html
+Macro BOOST_PFR_ENABLED
 
 
 
@@ -14803,8 +14803,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_ENABLED.html
-Macro BOOST_XPRESSIVE_HAS_MS_STACK_GUARD\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_ENABLED.html
+Macro BOOST_XPRESSIVE_HAS_MS_STACK_GUARD
 
 
 
@@ -14852,8 +14852,8 @@ Copyright © 2007 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_XPRESS_1_3_45_5_18_3.html
-Chapter 1. Boost.Accumulators\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_XPRESS_1_3_45_5_18_3.html
+Chapter 1. Boost.Accumulators
 
 
 
@@ -14946,8 +14946,8 @@ Preface
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/accumulators.html
-Macro BOOST_ACCUMULATORS_PROTO_DISABLE_IF_IS_CONST\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/accumulators.html
+Macro BOOST_ACCUMULATORS_PROTO_DISABLE_IF_IS_CONST
 
 
 
@@ -14995,8 +14995,8 @@ Copyright © 2005, 2006 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_4.html
-Chapter 22. Boost.Metaparse\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_4.html
+Chapter 22. Boost.Metaparse
 
 
 
@@ -15184,8 +15184,8 @@ Description
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/metaparse.html
-Macro BOOST_MOVE_TO_LV\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/metaparse.html
+Macro BOOST_MOVE_TO_LV
 
 
 
@@ -15239,8 +15239,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MOVE_TO_LV.html
-Macro BOOST_STL_INTERFACES_NAMESPACE_V1\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MOVE_TO_LV.html
+Macro BOOST_STL_INTERFACES_NAMESPACE_V1
 
 
 
@@ -15288,8 +15288,8 @@ Copyright © 2019 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_3.html
-Macro BOOST_STL_INTERFACES_STATIC_ASSERT_ITERATOR_TRAITS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_3.html
+Macro BOOST_STL_INTERFACES_STATIC_ASSERT_ITERATOR_TRAITS
 
 
 
@@ -15351,8 +15351,8 @@ Copyright © 2019 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_4_3.html
-Chapter 16. Boost.Interprocess\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_4_3.html
+Chapter 16. Boost.Interprocess
 
 
 
@@ -15684,8 +15684,8 @@ Warning
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/interprocess.html
-Macro BOOST_PROTO_REPEAT_FROM_TO_EX\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/interprocess.html
+Macro BOOST_PROTO_REPEAT_FROM_TO_EX
 
 
 
@@ -15756,8 +15756,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_37_5.html
-Macro BOOST_PFR_ENABLE_IMPLICIT_REFLECTION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_37_5.html
+Macro BOOST_PFR_ENABLE_IMPLICIT_REFLECTION
 
 
 
@@ -15805,8 +15805,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_ENABLE_I_idm2552.html
-Macro BOOST_IS_MPI_DATATYPE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_ENABLE_I_idm2552.html
+Macro BOOST_IS_MPI_DATATYPE
 
 
 
@@ -15856,8 +15856,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_IS_MPI_DATATYPE.html
-Chapter 20. Boost.Lockfree\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_IS_MPI_DATATYPE.html
+Chapter 20. Boost.Lockfree
 
 
 
@@ -16137,8 +16137,8 @@ boost::lockfree::allocator
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/lockfree.html
-Chapter 11. Boost.Date_Time\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/lockfree.html
+Chapter 11. Boost.Date_Time
 
 
 
@@ -16373,8 +16373,8 @@ Design Concepts
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/date_time.html
-Macro BOOST_YAP_USER_UDT_UNARY_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/date_time.html
+Macro BOOST_YAP_USER_UDT_UNARY_OPERATOR
 
 
 
@@ -16463,8 +16463,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_9.html
-Macro BOOST_PROTO_A_ref\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_9.html
+Macro BOOST_PROTO_A_ref
 
 
 
@@ -16534,8 +16534,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_ref.html
-Redirect to generated documentation\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_ref.html
+Redirect to generated documentation
 
   
   
@@ -16551,8 +16551,8 @@ Redirect to generated documentation\3
     http://www.boost.org/doc/libs/master/doc/html/hash.html
   
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/hash.html
-Chapter 17. Boost.Intrusive\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/hash.html
+Chapter 17. Boost.Intrusive
 
 
 
@@ -17007,8 +17007,8 @@ Warning
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/intrusive.html
-Macro BOOST_TYPE_ERASURE_MEMBER\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/intrusive.html
+Macro BOOST_TYPE_ERASURE_MEMBER
 
 
 
@@ -17111,8 +17111,8 @@ Copyright © 2011-2013 Steven Watanabe
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_ERASURE_MEMBER.html
-Macro BOOST_PROTO_DEFINE_OPERATORS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_ERASURE_MEMBER.html
+Macro BOOST_PROTO_DEFINE_OPERATORS
 
 
 
@@ -17205,8 +17205,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_33_3.html
-Macro BOOST_TYPE_INDEX_FUNCTION_SIGNATURE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_33_3.html
+Macro BOOST_TYPE_INDEX_FUNCTION_SIGNATURE
 
 
 
@@ -17261,8 +17261,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_5.html
-Chapter 15. Boost.Heap\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_5.html
+Chapter 15. Boost.Heap
 
 
 
@@ -17379,8 +17379,8 @@ Introduction &amp; Motivation
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/heap.html
-Macro BOOST_UNITS_METRIC_PREFIX\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/heap.html
+Macro BOOST_UNITS_METRIC_PREFIX
 
 
 
@@ -17429,8 +17429,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNI_1_3_43_10_4_60_2.html
-Macro BOOST_TYPE_INDEX_FORCE_NO_RTTI_COMPATIBILITY\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNI_1_3_43_10_4_60_2.html
+Macro BOOST_TYPE_INDEX_FORCE_NO_RTTI_COMPATIBILITY
 
 
 
@@ -17482,8 +17482,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_8.html
-Macro BOOST_MPI_HOMOGENEOUS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_8.html
+Macro BOOST_MPI_HOMOGENEOUS
 
 
 
@@ -17539,8 +17539,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_HOMOGENEOUS.html
-Chapter 30. Boost.PropertyTree\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_HOMOGENEOUS.html
+Chapter 30. Boost.PropertyTree
 
 
 
@@ -17667,8 +17667,8 @@ struct ptree
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/property_tree.html
-Chapter 35. Boost.Stacktrace 1.0\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/property_tree.html
+Chapter 35. Boost.Stacktrace 1.0
 
 
 
@@ -17767,8 +17767,8 @@ Motivation
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/stacktrace.html
-Macro BOOST_YAP_USER_UNARY_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/stacktrace.html
+Macro BOOST_YAP_USER_UNARY_OPERATOR
 
 
 
@@ -17853,8 +17853,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_1.html
-Redirect to generated documentation\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_1.html
+Redirect to generated documentation
 
   
   
@@ -17870,8 +17870,8 @@ Redirect to generated documentation\3
     http://www.boost.org/doc/libs/master/doc/html/signals.html
   
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/signals.html
-Macro BOOST_UNITS_DEFAULT_CONVERSION_TEMPLATE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/signals.html
+Macro BOOST_UNITS_DEFAULT_CONVERSION_TEMPLATE
 
 
 
@@ -17924,8 +17924,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_7_6.html
-Macro BOOST_MPI_CHECK_RESULT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_7_6.html
+Macro BOOST_MPI_CHECK_RESULT
 
 
 
@@ -17979,8 +17979,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_CHECK_RESULT.html
-Macro BOOST_MPI_VERSION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_CHECK_RESULT.html
+Macro BOOST_MPI_VERSION
 
 
 
@@ -18034,8 +18034,8 @@ Copyright © 2005-2007 Douglas Gregor,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_VERSION.html
-Macro BOOST_STL_INTERFACES_NAMESPACE_V2\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MPI_VERSION.html
+Macro BOOST_STL_INTERFACES_NAMESPACE_V2
 
 
 
@@ -18083,8 +18083,8 @@ Copyright © 2019 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_4.html
-Chapter 13. Boost.Foreach\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_4.html
+Chapter 13. Boost.Foreach
 
 
 
@@ -18397,8 +18397,8 @@ namespace boost
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/foreach.html
-Macro BOOST_DLL_AUTO_ALIAS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/foreach.html
+Macro BOOST_DLL_AUTO_ALIAS
 
 
 
@@ -18480,8 +18480,8 @@ Copyright © 2014 Renato Tegon Forti, Antony PolukhinCopyright © 2015 Antony Po
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_AUTO_ALIAS.html
-Concept Expr\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_AUTO_ALIAS.html
+Concept Expr
 
 
 
@@ -18701,8 +18701,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/Expr.html
-Concept CopyConstructible\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/Expr.html
+Concept CopyConstructible
 
 
 
@@ -18811,8 +18811,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/CopyConstructible.html
-Chapter 14. Boost.Function\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/CopyConstructible.html
+Chapter 14. Boost.Function
 
 
 
@@ -18915,8 +18915,8 @@ function object.
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/function.html
-Macro BOOST_PROTO_A\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/function.html
+Macro BOOST_PROTO_A
 
 
 
@@ -18986,8 +18986,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_1_3_32_5_37_10.html
-Macro BOOST_ACCUMULATORS_MAX_FEATURES\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_1_3_32_5_37_10.html
+Macro BOOST_ACCUMULATORS_MAX_FEATURES
 
 
 
@@ -19039,8 +19039,8 @@ Copyright © 2005, 2006 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_2.html
-Chapter 6. Boost.Chrono 2.0.8\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_2.html
+Chapter 6. Boost.Chrono 2.0.8
 
 
 
@@ -19367,8 +19367,8 @@ Description
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/chrono.html
-Auxiliary Components\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/chrono.html
+Auxiliary Components
 
 
 
@@ -19842,8 +19842,8 @@ Copyright © 2002 The Trustees of Indiana University
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/auxiliary.html
-Macro BOOST_PROTO_MAX_LOGICAL_ARITY\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/auxiliary.html
+Macro BOOST_PROTO_MAX_LOGICAL_ARITY
 
 
 
@@ -19904,8 +19904,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_35_4.html
-Macro BOOST_PROTO_A_const_ref_a\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_35_4.html
+Macro BOOST_PROTO_A_const_ref_a
 
 
 
@@ -19975,8 +19975,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_const_ref_a.html
-Macro BOOST_YAP_USER_EXPR_IF_ELSE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_const_ref_a.html
+Macro BOOST_YAP_USER_EXPR_IF_ELSE
 
 
 
@@ -20053,8 +20053,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_7.html
-Macro BOOST_UNITS_DEFINE_CONVERSION_FACTOR_TEMPLATE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_7.html
+Macro BOOST_UNITS_DEFINE_CONVERSION_FACTOR_TEMPLATE
 
 
 
@@ -20107,8 +20107,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_7_4.html
-Concept EqualityComparable\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_7_4.html
+Concept EqualityComparable
 
 
 
@@ -20224,8 +20224,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/EqualityComparable.html
-Macro BOOST_PROTO_EXTENDS_SUBSCRIPT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/EqualityComparable.html
+Macro BOOST_PROTO_EXTENDS_SUBSCRIPT
 
 
 
@@ -20293,8 +20293,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_10_7.html
-Macro BOOST_PROCESS_V2_SOURCE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_10_7.html
+Macro BOOST_PROCESS_V2_SOURCE
 
 
 
@@ -20343,8 +20343,8 @@ Copyright © 2006-2012 Julio M. Merino Vidal, Ilya Sokolov,
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROCESS_V2_SOURCE.html
-Macro BOOST_PROTO_DEFINE_ENV_VAR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROCESS_V2_SOURCE.html
+Macro BOOST_PROTO_DEFINE_ENV_VAR
 
 
 
@@ -20427,8 +20427,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_DEFINE_ENV_VAR.html
-Macro BOOST_PROTO_A_const\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_DEFINE_ENV_VAR.html
+Macro BOOST_PROTO_A_const
 
 
 
@@ -20498,8 +20498,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_const.html
-Part II. Boost Tools\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_const.html
+Part II. Boost Tools
 
 
 
@@ -20577,8 +20577,8 @@ Quick Reference
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/tools.html
-Concept Transform\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/tools.html
+Concept Transform
 
 
 
@@ -20687,8 +20687,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/Transform.html
-Chapter 3. Boost.Align\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/Transform.html
+Chapter 3. Boost.Align
 
 
 
@@ -20765,8 +20765,8 @@ Introduction
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/align.html
-Macro BOOST_DLL_ALIAS_SECTIONED\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/align.html
+Macro BOOST_DLL_ALIAS_SECTIONED
 
 
 
@@ -20855,8 +20855,8 @@ Copyright © 2014 Renato Tegon Forti, Antony PolukhinCopyright © 2015 Antony Po
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_ALIAS_SECTIONED.html
-Macro BOOST_RV_REF_BEG_IF_CXX11\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_ALIAS_SECTIONED.html
+Macro BOOST_RV_REF_BEG_IF_CXX11
 
 
 
@@ -20908,8 +20908,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF_BEG_IF_CXX11.html
-Redirect to generated documentation\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RV_REF_BEG_IF_CXX11.html
+Redirect to generated documentation
 
   
   
@@ -20925,8 +20925,8 @@ Redirect to generated documentation\3
     ../../tools/build/doc/html/index.html
   
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/bbv2.html
-Macro BOOST_PFR_HAS_GUARANTEED_COPY_ELISION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/bbv2.html
+Macro BOOST_PFR_HAS_GUARANTEED_COPY_ELISION
 
 
 
@@ -20974,8 +20974,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_HAS_GUAR_idm2551.html
-Macro BOOST_PROTO_a\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_HAS_GUAR_idm2551.html
+Macro BOOST_PROTO_a
 
 
 
@@ -21045,8 +21045,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_1_3_32_5_37_15.html
-Chapter 28. Boost.Process\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_1_3_32_5_37_15.html
+Chapter 28. Boost.Process
 
 
 
@@ -21245,8 +21245,8 @@ int main()
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/process.html
-Chapter 33. Boost.Ratio 2.1.0\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/process.html
+Chapter 33. Boost.Ratio 2.1.0
 
 
 
@@ -21436,8 +21436,8 @@ Description
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/ratio.html
-Chapter 45. Boost.YAP\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/ratio.html
+Chapter 45. Boost.YAP
 
 
 
@@ -21674,8 +21674,8 @@ assert(v2 == std::vector&lt;int&gt;({0, 1, 2, 3, 7, 8}));
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/yap.html
-Macro BOOST_YAP_USER_UDT_ANY_IF_ELSE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/yap.html
+Macro BOOST_YAP_USER_UDT_ANY_IF_ELSE
 
 
 
@@ -21760,8 +21760,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_8.html
-Macro BOOST_DLL_SELECTANY\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_8.html
+Macro BOOST_DLL_SELECTANY
 
 
 
@@ -21813,8 +21813,8 @@ Copyright © 2014 Renato Tegon Forti, Antony PolukhinCopyright © 2015 Antony Po
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_SELECTANY.html
-Concept BidirectionalIterator\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_SELECTANY.html
+Concept BidirectionalIterator
 
 
 
@@ -22009,8 +22009,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BidirectionalIterator.html
-Macro BOOST_PROTO_EXTENDS_FUNCTION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BidirectionalIterator.html
+Macro BOOST_PROTO_EXTENDS_FUNCTION
 
 
 
@@ -22081,8 +22081,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_10_6.html
-Reference\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO__1_3_32_5_10_6.html
+Reference
 
 
 
@@ -22203,8 +22203,8 @@ Copyright © 2003-2005 Douglas GregorDistributed under the Boost Software Licens
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/reference.html
-Macro BOOST_MOVABLE_BUT_NOT_COPYABLE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/reference.html
+Macro BOOST_MOVABLE_BUT_NOT_COPYABLE
 
 
 
@@ -22256,8 +22256,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MOVABL_1_3_24_20_7_3.html
-Macro BOOST_NO_CONSTEXPR_IF\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_MOVABL_1_3_24_20_7_3.html
+Macro BOOST_NO_CONSTEXPR_IF
 
 
 
@@ -22310,8 +22310,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_NO_CONSTEXPR_IF.html
-Chapter 36. Boost.StaticAssert\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_NO_CONSTEXPR_IF.html
+Chapter 36. Boost.StaticAssert
 
 
 
@@ -22587,8 +22587,8 @@ struct must_not_be_instantiated
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_staticassert.html
-Macro BOOST_ACCUMULATORS_DEFINE_EXTRACTOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_staticassert.html
+Macro BOOST_ACCUMULATORS_DEFINE_EXTRACTOR
 
 
 
@@ -22636,8 +22636,8 @@ Copyright © 2005, 2006 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUM_1_3_2_6_2_13_2.html
-Macro BOOST_TYPE_INDEX_USER_TYPEINDEX\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUM_1_3_2_6_2_13_2.html
+Macro BOOST_TYPE_INDEX_USER_TYPEINDEX
 
 
 
@@ -22690,8 +22690,8 @@ Copyright © 2012-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_7.html
-Macro BOOST_RANDOM_MERSENNE_TWISTER_DISCARD_THRESHOLD\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_TYPE_IN_1_3_41_8_2_7.html
+Macro BOOST_RANDOM_MERSENNE_TWISTER_DISCARD_THRESHOLD
 
 
 
@@ -22739,8 +22739,8 @@ Copyright © 2000-2005 Jens MaurerCopyright © 2009, 2010 Steven Watanabe
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RAND_1_3_33_5_6_26_2.html
-Macro BOOST_YAP_USER_LITERAL_PLACEHOLDER_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_RAND_1_3_33_5_6_26_2.html
+Macro BOOST_YAP_USER_LITERAL_PLACEHOLDER_OPERATOR
 
 
 
@@ -22813,8 +22813,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP__1_3_46_8_2_7_12.html
-Concept RandomAccessIterator\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP__1_3_46_8_2_7_12.html
+Concept RandomAccessIterator
 
 
 
@@ -23071,8 +23071,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/RandomAccessIterator.html
-Macro BOOST_PROGRAM_OPTIONS_VERSION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/RandomAccessIterator.html
+Macro BOOST_PROGRAM_OPTIONS_VERSION
 
 
 
@@ -23124,8 +23124,8 @@ Copyright © 2002-2004 Vladimir PrusDistributed under the Boost Software License
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROGRA_1_3_30_9_12_1.html
-The Boost C++ Libraries BoostBook Documentation Subset\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROGRA_1_3_30_9_12_1.html
+The Boost C++ Libraries BoostBook Documentation Subset
 
 
 
@@ -23219,8 +23219,8 @@ II. Boost Tools
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/index.html
-Chapter 39. Boost.TypeErasure\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/index.html
+Chapter 39. Boost.TypeErasure
 
 
 
@@ -23432,8 +23432,8 @@ Introduction
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_typeerasure.html
-Macro BOOST_ACCUMULATORS_IGNORE_GLOBAL\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_typeerasure.html
+Macro BOOST_ACCUMULATORS_IGNORE_GLOBAL
 
 
 
@@ -23481,8 +23481,8 @@ Copyright © 2005, 2006 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_6.html
-Boost.Container Header Reference\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_ACCUMU_1_3_2_6_2_3_6.html
+Boost.Container Header Reference
 
 
 
@@ -24620,8 +24620,8 @@ Copyright © 2009-2018 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/boost_container_header_reference.html
-Chapter 46. Boost.Concept_Check\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/boost_container_header_reference.html
+Chapter 46. Boost.Concept_Check
 
 
 
@@ -24727,8 +24727,8 @@ SignedInteger
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/concept_check.html
-Macro BOOST_PFR_FUNCTIONS_FOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/concept_check.html
+Macro BOOST_PFR_FUNCTIONS_FOR
 
 
 
@@ -24812,8 +24812,8 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_FUNCTIONS_FOR.html
-Macro BOOST_STL_INTERFACES_USE_DEDUCED_THIS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_FUNCTIONS_FOR.html
+Macro BOOST_STL_INTERFACES_USE_DEDUCED_THIS
 
 
 
@@ -24861,8 +24861,8 @@ Copyright © 2019 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_2.html
-Concept InputIterator\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_STL__1_3_38_15_2_2_2.html
+Concept InputIterator
 
 
 
@@ -25075,8 +25075,8 @@ Permission to use, copy, modify, distribute and
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/InputIterator.html
-Macro BOOST_DLL_FORCE_NO_WEAK_EXPORTS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/InputIterator.html
+Macro BOOST_DLL_FORCE_NO_WEAK_EXPORTS
 
 
 
@@ -25128,8 +25128,8 @@ Copyright © 2014 Renato Tegon Forti, Antony PolukhinCopyright © 2015 Antony Po
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_FORCE_NO_idm4168.html
-Macro BOOST_VARIANT_NO_FULL_RECURSIVE_VARIANT_SUPPORT\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_FORCE_NO_idm4168.html
+Macro BOOST_VARIANT_NO_FULL_RECURSIVE_VARIANT_SUPPORT
 
 
 
@@ -25192,8 +25192,8 @@ Copyright © 2002, 2003 Eric Friedman, Itay MamanCopyright © 2014-2023 Antony P
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_1_3_44_5_3_7.html
-Macro BOOST_CRC_PARM_TYPE\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_VARIANT_1_3_44_5_3_7.html
+Macro BOOST_CRC_PARM_TYPE
 
 
 
@@ -25241,8 +25241,8 @@ Copyright © 2001, 2003, 2012 Daryle Walker
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_CRC_PARM_TYPE.html
-Macro BOOST_UNITS_DEFAULT_CONVERSION\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_CRC_PARM_TYPE.html
+Macro BOOST_UNITS_DEFAULT_CONVERSION
 
 
 
@@ -25295,8 +25295,8 @@ Copyright © 2003-2008 Matthias Christian SchabelCopyright © 2007-2010 Steven
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_7_5.html
-Macro BOOST_PROTO_A_const_ref\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_UNIT_1_3_43_10_2_7_5.html
+Macro BOOST_PROTO_A_const_ref
 
 
 
@@ -25366,8 +25366,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_const_ref.html
-Macro BOOST_FWD_REF\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_A_const_ref.html
+Macro BOOST_FWD_REF
 
 
 
@@ -25419,8 +25419,8 @@ Copyright © 2008-2014 Ion Gaztanaga
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_FWD_REF.html
-MultiArray Concept\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_FWD_REF.html
+MultiArray Concept
 
 
 
@@ -26486,8 +26486,8 @@ Copyright © 2002 The Trustees of Indiana University
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/MultiArray.html
-Macro BOOST_PROTO_EXTENDS_ASSIGN\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/MultiArray.html
+Macro BOOST_PROTO_EXTENDS_ASSIGN
 
 
 
@@ -26555,8 +26555,8 @@ Copyright © 2008 Eric Niebler
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_EXTENDS_ASSIGN.html
-Macro BOOST_YAP_USER_ASSIGN_OPERATOR\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PROTO_EXTENDS_ASSIGN.html
+Macro BOOST_YAP_USER_ASSIGN_OPERATOR
 
 
 
@@ -26638,8 +26638,8 @@ Copyright © 2018 T. Zachary Laine
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_3.html
-Macro BOOST_DLL_ALIAS\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_YAP_U_1_3_46_8_2_7_3.html
+Macro BOOST_DLL_ALIAS
 
 
 
@@ -26731,8 +26731,8 @@ Copyright © 2014 Renato Tegon Forti, Antony PolukhinCopyright © 2015 Antony Po
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_ALIAS.html
-Macro BOOST_PFR_MAYBE_UNUSED\3
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_DLL_ALIAS.html
+Macro BOOST_PFR_MAYBE_UNUSED
 
 
 
@@ -26780,4 +26780,4 @@ Copyright © 2016-2023 Antony Polukhin
 
 
 
-\3https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_MAYBE_UNUSED.html
+https://www.boost.org/doc/libs/1_84_0/doc/html/BOOST_PFR_MAYBE_UNUSED.html
