@@ -2,11 +2,11 @@
 
 int main()
 {
-    FileCompressHM *C = new FileCompressHM();
-    C->CompressHM("test.txt");
+    FileCompressHM compressor;
 
-    FileCompressHM *UC = new FileCompressHM();
-    UC->UnCompressHM("test.myzip");
+    compressor.CompressHM("input.txt");
+
+    compressor.UnCompressHM("test.myzip");
 
     return 0;
 }

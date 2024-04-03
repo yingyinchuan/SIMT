@@ -1,3 +1,5 @@
+#pragma once
+
 #include <vector>
 #include <queue>
 
@@ -11,10 +13,7 @@ struct HuffmanTreeNode
     HuffmanTreeNode<W> *_parent;
     W _weight;
 
-    HuffmanTreeNode(const W &w = W())
-        : _left(nullptr), _right(nullptr), _parent(nullptr), _weight(w)
-    {
-    }
+    HuffmanTreeNode(const W &w = W()) : _left(nullptr), _right(nullptr), _parent(nullptr), _weight(w) {}
 };
 
 template <class W>
@@ -31,10 +30,8 @@ class HuffmanTree
     };
 
 public:
-    HuffmanTree(const vector<W> &vw, const W &invalid)
-        : _root(nullptr)
+    HuffmanTree(const vector<W> &vw, const W &invalid) : _root(nullptr)
     {
-        // 构建优先级队列
         priority_queue<Node *, vector<Node *>, Compare> q;
         for (auto &e : vw)
         {

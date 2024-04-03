@@ -1,26 +1,22 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <cstddef>
 #include <algorithm>
+#include <fstream>
 #include "HuffmanTree.hpp"
 
-using std::string;
-using std::vector;
+using namespace std;
 
 struct ByteInfo
 {
     unsigned char _ch;
     size_t _appearCount;
     string _chCode;
-    ByteInfo(size_t appearCount = 0)
-        : _appearCount(appearCount)
-    {
-    }
+    ByteInfo(size_t appearCount = 0) : _ch(0), _appearCount(appearCount) {}
 
     ByteInfo operator+(const ByteInfo &other) const
     {
-        return _appearCount + other._appearCount;
+        return ByteInfo(_appearCount + other._appearCount);
     }
 
     bool operator>(const ByteInfo &other) const
@@ -49,9 +45,9 @@ public:
 
 private:
     void GenerateHuffmanCode(HuffmanTreeNode<ByteInfo> *root);
-    void WriteHeadInfo(const string &filePath, FILE *out);
+    void WriteHeadInfo(const string &filePath, ofstream &out);
     string GetFilePostFix(const string &filePath);
-    void GetLine(FILE *in, string &strInfo);
+    void GetLine(ifstream &in, string &strInfo);
     vector<ByteInfo> _fileInfo;
 };
 
@@ -64,22 +60,19 @@ FileCompressHM::FileCompressHM()
     }
 }
 
-FileCompressHM::~FileCompressHM()
-{
-}
+FileCompressHM::~FileCompressHM() {}
 
 void FileCompressHM::CompressHM(const string &filePath)
 {
-    FILE *in = fopen(filePath.c_str(), "rb");
-    if (in == nullptr)
+    ifstream in(filePath, ios::binary);
+    if (!in)
         return;
 
     unsigned char buffer[1024];
-    while (true)
+    while (!in.eof())
     {
-        size_t size = fread(buffer, 1, 1024, in);
-        if (size == 0)
-            break;
+        in.read(reinterpret_cast<char *>(buffer), 1024);
+        size_t size = in.gcount();
         for (size_t i = 0; i < size; i++)
         {
             _fileInfo[buffer[i]]._appearCount++;
@@ -90,19 +83,18 @@ void FileCompressHM::CompressHM(const string &filePath)
     GenerateHuffmanCode(ht.GetRoot());
 
     string fileName = "test.myzip";
-    FILE *out = fopen(fileName.c_str(), "wb");
+    ofstream out(fileName, ios::binary);
     WriteHeadInfo(filePath, out);
 
-    fseek(in, 0, SEEK_SET);
+    in.clear();
+    in.seekg(0, ios::beg);
     unsigned char bits = 0;
     int bitcount = 0;
 
-    while (true)
+    while (!in.eof())
     {
-        size_t size = fread(buffer, 1, 1024, in);
-        if (0 == size)
-            break;
-
+        in.read(reinterpret_cast<char *>(buffer), 1024);
+        size_t size = in.gcount();
         for (size_t i = 0; i < size; i++)
         {
             unsigned char ch = buffer[i];
@@ -115,7 +107,7 @@ void FileCompressHM::CompressHM(const string &filePath)
                 bitcount++;
                 if (bitcount == 8)
                 {
-                    fputc(bits, out);
+                    out.put(bits);
                     bits = 0;
                     bitcount = 0;
                 }
@@ -126,25 +118,22 @@ void FileCompressHM::CompressHM(const string &filePath)
     if (bitcount != 0)
     {
         bits <<= (8 - bitcount);
-        fputc(bits, out);
+        out.put(bits);
     }
-
-    fclose(in);
-    fclose(out);
 }
 
 void FileCompressHM::UnCompressHM(const string &filePath)
 {
     if (GetFilePostFix(filePath) != "myzip")
     {
-        std::cout << "请使用正确格式" << std::endl;
+        cout << "Please use correct format." << endl;
         return;
     }
 
-    FILE *in = fopen(filePath.c_str(), "rb");
-    if (in == nullptr)
+    ifstream in(filePath, ios::binary);
+    if (!in)
     {
-        std::cout << "文件路径不存在" << std::endl;
+        cout << "File path does not exist." << endl;
         return;
     }
 
@@ -153,8 +142,8 @@ void FileCompressHM::UnCompressHM(const string &filePath)
     GetLine(in, strInfo);
     file_name += strInfo;
     GetLine(in, strInfo);
-    size_t lineCount = atoi(strInfo.c_str()); // 获取记录字符出现次数的行数
-    size_t fileSize = 0;                      // 初始化文件大小
+    size_t lineCount = stoi(strInfo);
+    size_t fileSize = 0;
     for (size_t i = 0; i < lineCount; ++i)
     {
         GetLine(in, strInfo);
@@ -164,23 +153,19 @@ void FileCompressHM::UnCompressHM(const string &filePath)
             GetLine(in, strInfo);
         }
         _fileInfo[strInfo[0]]._ch = strInfo[0];
-        _fileInfo[strInfo[0]]._appearCount = atoi(strInfo.c_str() + 2);
-        fileSize += _fileInfo[strInfo[0]]._appearCount; // 更新文件大小
+        _fileInfo[strInfo[0]]._appearCount = stoi(strInfo.substr(2));
+        fileSize += _fileInfo[strInfo[0]]._appearCount;
     }
 
-    // 重新构建哈夫曼树
     HuffmanTree<ByteInfo> ht(_fileInfo, ByteInfo());
-    // 解压缩
-    FILE *out = fopen(file_name.c_str(), "wb");
+    ofstream out(file_name, ios::binary);
     unsigned char buffer[1024];
     HuffmanTreeNode<ByteInfo> *cur = ht.GetRoot();
-    size_t decodedBytes = 0; // 记录已解压的字节数
+    size_t decodedBytes = 0;
     while (decodedBytes < fileSize)
     {
-        size_t size = fread(buffer, 1, 1024, in);
-        if (size == 0)
-            break;
-
+        in.read(reinterpret_cast<char *>(buffer), 1024);
+        size_t size = in.gcount();
         for (size_t i = 0; i < size && decodedBytes < fileSize; i++)
         {
             unsigned char bits = buffer[i];
@@ -193,16 +178,13 @@ void FileCompressHM::UnCompressHM(const string &filePath)
                 bits <<= 1;
                 if (cur->_left == nullptr && cur->_right == nullptr)
                 {
-                    fputc((cur->_weight)._ch, out);
+                    out.put((cur->_weight)._ch);
                     cur = ht.GetRoot();
                     decodedBytes++;
                 }
             }
         }
     }
-
-    fclose(in);
-    fclose(out);
 }
 
 void FileCompressHM::GenerateHuffmanCode(HuffmanTreeNode<ByteInfo> *root)
@@ -228,11 +210,11 @@ void FileCompressHM::GenerateHuffmanCode(HuffmanTreeNode<ByteInfo> *root)
             cur = parent;
             parent = cur->_parent;
         }
-        std::reverse(chCode.begin(), chCode.end());
+        reverse(chCode.begin(), chCode.end());
     }
 }
 
-void FileCompressHM::WriteHeadInfo(const string &filePath, FILE *out)
+void FileCompressHM::WriteHeadInfo(const string &filePath, ofstream &out)
 {
     string HeadInfo;
     HeadInfo += GetFilePostFix(filePath);
@@ -247,16 +229,16 @@ void FileCompressHM::WriteHeadInfo(const string &filePath, FILE *out)
 
         chInfo += e._ch;
         chInfo += ':';
-        chInfo += std::to_string(e._appearCount);
+        chInfo += to_string(e._appearCount);
         chInfo += '\n';
 
         chCount++;
     }
-    HeadInfo += std::to_string(chCount);
+    HeadInfo += to_string(chCount);
     HeadInfo += '\n';
 
-    fwrite(HeadInfo.c_str(), 1, HeadInfo.size(), out);
-    fwrite(chInfo.c_str(), 1, chInfo.size(), out);
+    out.write(HeadInfo.c_str(), HeadInfo.size());
+    out.write(chInfo.c_str(), chInfo.size());
 }
 
 string FileCompressHM::GetFilePostFix(const string &filePath)
@@ -264,12 +246,13 @@ string FileCompressHM::GetFilePostFix(const string &filePath)
     return filePath.substr(filePath.find_last_of('.') + 1);
 }
 
-void FileCompressHM::GetLine(FILE *in, string &strInfo)
+void FileCompressHM::GetLine(ifstream &in, string &strInfo)
 {
     strInfo.clear();
-    while (!feof(in))
+    while (!in.eof())
     {
-        unsigned char ch = fgetc(in);
+        char ch;
+        in.get(ch);
         if (ch == '\n')
             break;
         strInfo += ch;
