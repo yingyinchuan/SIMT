@@ -32,7 +32,7 @@ class HuffmanTree
 
 public:
     HuffmanTree(const vector<W> &vw, const W &invalid)
-        : root(nullptr)
+        : _root(nullptr)
     {
         // 构建优先级队列
         priority_queue<Node *, vector<Node *>, Compare> q;
@@ -67,6 +67,11 @@ public:
         destroyTree(_root);
     }
 
+    Node *GetRoot()
+    {
+        return _root;
+    }
+
 private:
     void destroyTree(Node *node)
     {
@@ -80,9 +85,3 @@ private:
 
     Node *_root;
 };
-
-// void test()
-// {
-//     vector<int> v{6, 0, 3, 3, 4, 5, 9, 1, 6};
-//     HuffmanTree<int> ht(v, 0);
-// }
