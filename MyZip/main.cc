@@ -6,7 +6,7 @@ int main()
 
     compressor.CompressHM("input.txt");
 
-    compressor.UnCompressHM("test.myzip");
+    compressor.UnCompressHM("test.mz");
 
     return 0;
 }

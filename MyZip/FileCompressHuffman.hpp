@@ -82,7 +82,7 @@ void FileCompressHM::CompressHM(const string &filePath)
 
     GenerateHuffmanCode(ht.GetRoot());
 
-    string fileName = "test.myzip";
+    string fileName = "test.mz";
     ofstream out(fileName, ios::binary);
     WriteHeadInfo(filePath, out);
 
@@ -124,7 +124,7 @@ void FileCompressHM::CompressHM(const string &filePath)
 
 void FileCompressHM::UnCompressHM(const string &filePath)
 {
-    if (GetFilePostFix(filePath) != "myzip")
+    if (GetFilePostFix(filePath) != "mz")
     {
         cout << "Please use correct format." << endl;
         return;
@@ -137,7 +137,7 @@ void FileCompressHM::UnCompressHM(const string &filePath)
         return;
     }
 
-    string file_name = "unzip.";
+    string file_name = "output.";
     string strInfo;
     GetLine(in, strInfo);
     file_name += strInfo;

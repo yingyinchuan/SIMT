@@ -11,7 +11,7 @@ $(TARGET): $(SRCS)
 
 clean:
 	rm -f $(TARGET)
-	rm -f test.myzip unzip.txt
+	rm -f test.mz output.txt
 
 test:
 	./program
