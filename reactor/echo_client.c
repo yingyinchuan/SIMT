@@ -4,9 +4,11 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
-void error_handling(char *massage)
+#define BUFF 1024
+
+void error_handling(char *message)
 {
-    fputc(massage, stderr);
+    fputs(message, stderr);
     fputc('\n', stderr);
     exit(1);
 }
@@ -15,13 +17,14 @@ int main(int argc, char *argv[])
 {
     int sock;
     struct sockaddr_in serv_addr;
-    char *massage[30];
+    char message[BUFF];
     int str_len;
+    int read_len;
 
     if (argc != 3)
     {
         printf("Usage: %s <IP> <port>\n", argv[0]);
-        eixt(1);
+        exit(1);
     }
 
     sock = socket(PF_INET, SOCK_STREAM, 0);
@@ -35,12 +38,23 @@ int main(int argc, char *argv[])
 
     if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) == -1)
         error_handling("connect() error");
+    else
+        puts("connected......");
 
-    str_len = read(sock, massage, sizeof(massage) - 1);
-    if (str_len == -1)
-        error_handling("read() error");
+    while (1)
+    {
+        fputs("Input message(Q to quit) \n", stdout);
+        fgets(message, BUFF, stdin);
 
-    printf("massage from server: %s", massage);
+        if (!strcmp(message, "Q\n"))
+            break;
+
+        write(sock, message, strlen(message));
+        str_len = read(sock, message, BUFF - 1);
+        message[str_len] = 0;
+        printf("massage from server: %s \n", message);
+    }
+
     close(sock);
 
     return 0;

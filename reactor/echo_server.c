@@ -4,9 +4,11 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>
-void error_handling(char *massage)
+#define BUFF 1024
+
+void error_handling(char *message)
 {
-    fputc(massage, stderr);
+    fputs(message, stderr);
     fputc('\n', stderr);
     exit(1);
 }
@@ -20,7 +22,7 @@ int main(int argc, char *argv[])
     struct sockaddr_in clnt_addr;
     socklen_t clnt_addr_size;
 
-    char massage[] = "Hello world";
+    char message[BUFF];
 
     if (argc != 2)
     {
@@ -35,7 +37,7 @@ int main(int argc, char *argv[])
     memset(&serv_addr, 0, sizeof(serv_addr));
     serv_addr.sin_family = AF_INET;
     serv_addr.sin_addr.s_addr = htonl(INADDR_ANY);
-    serv_addr.sin_port = htons(aito(argv[1]));
+    serv_addr.sin_port = htons(atoi(argv[1]));
 
     if (bind(serv_sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) == -1)
         error_handling("bind() error");
@@ -44,12 +46,21 @@ int main(int argc, char *argv[])
         error_handling("listen() error");
 
     clnt_addr_size = sizeof(clnt_addr);
-    clnt_sock = accept(serv_sock, (struct sockaddr *)&clnt_addr, clnt_addr_size);
-    if (clnt_sock == -1)
-        error_handling("accept() error");
 
-    write(clnt_sock, massage, sizeof(massage));
-    close(clnt_sock);
+    for (int i = 0, str_len = 0; i < 5; i++)
+    {
+        clnt_sock = accept(serv_sock, (struct sockaddr *)&clnt_addr, &clnt_addr_size);
+        if (clnt_sock == -1)
+            error_handling("accept() error");
+        else
+            printf("connected client %d \n", i + 1);
+
+        while ((str_len = read(clnt_sock, message, BUFF)) != 0)
+            write(clnt_sock, message, str_len);
+
+        close(clnt_sock);
+    }
+
     close(serv_sock);
 
     return 0;
