@@ -18,8 +18,7 @@ int main(int argc, char *argv[])
     int sock;
     struct sockaddr_in serv_addr;
     char message[BUFF];
-    int str_len;
-    int read_len;
+    int str_len, recv_len, recv_cnt;
 
     if (argc != 3)
     {
@@ -49,9 +48,17 @@ int main(int argc, char *argv[])
         if (!strcmp(message, "Q\n"))
             break;
 
-        write(sock, message, strlen(message));
-        str_len = read(sock, message, BUFF - 1);
-        message[str_len] = 0;
+        str_len = write(sock, message, strlen(message));
+        recv_len = 0;
+        while (recv_len < str_len)
+        {
+            recv_cnt = read(sock, &message[recv_len], BUFF - 1);
+            if (recv_cnt == -1)
+                error_handling("read() error");
+
+            recv_len += recv_cnt;
+        }
+        message[recv_len] = 0;
         printf("massage from server: %s \n", message);
     }
 
